@@ -8,7 +8,7 @@ export default function Card({badge, authorImage, author, time, content, expandM
       <Box rounded={3} p={8}>
         <HStack justify='space-between' align='baseline' mb={6}>
           <HStack spacing={3}>
-            <Badge variant='solid' bg='brand.crail' rounded='full' fontWeight='semibold' fontSize={13} px={5} py={3}>
+            <Badge variant='solid' bg='brand.crail' rounded='full' textTransform='capitalize' fontWeight='semibold' fontSize={13} px={5} py={3}>
               {badge}
             </Badge>
             <Image src={authorImage} alt={author} borderRadius='50%' maxW='12%' />
